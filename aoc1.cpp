@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+	freopen("data.txt", "r", stdin);
 	cin.tie(0)->sync_with_stdio(0);
 	vector<int> list1(1000);
 	vector<int> list2(1000);
